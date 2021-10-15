@@ -25,6 +25,6 @@ pong
 
 This is an example game that can be played with Socket-Pong:
 
-![example pong game](https://drive.google.com/file/d/15XmsLOoQR9p6RNsF-sTc4tMYVaWyww4A/view?usp=sharing)
+![example pong game](https://user-images.githubusercontent.com/49354894/137556988-7afdedc4-7030-48d4-b8e0-91bdd6c9028d.gif)
 
 #### License: MIT
