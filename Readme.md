@@ -18,7 +18,6 @@ The graphical display in the terminal does **NOT** depend on ncurses.
 ```
 npm install -g socket-pong
 pong
-
 ```
 
 ## Example Game:
