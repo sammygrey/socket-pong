@@ -1,6 +1,6 @@
 {
   "name": "socket-pong",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "WebSocket based terminal Pong game.",
   "main": "index.js",
   "bin": {
