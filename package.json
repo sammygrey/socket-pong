@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/sammygrey/socket-pong/issues"
   },
-  "homepage": "https://github.com/sammygrey/socket-pong#readme"
+  "homepage": "https://github.com/sammygrey/socket-pong#readme",
+  "dependencies": {}
 }
