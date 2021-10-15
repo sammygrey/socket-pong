@@ -1,0 +1,25 @@
+{
+  "name": "socket-pong",
+  "version": "0.5.0",
+  "description": "WebSocket based terminal Pong game.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pong": "node index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammygrey/socket-pong.git"
+  },
+  "keywords": [
+    "pong",
+    "terminal"
+  ],
+  "author": "Sammy Grey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sammygrey/socket-pong/issues"
+  },
+  "homepage": "https://github.com/sammygrey/socket-pong#readme"
+}

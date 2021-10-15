@@ -86,6 +86,7 @@ class Paddle {
       case this.up:
         nextPos = [body[0][0], body[0][1] - 1];
         if (nextPos[1] > -1) {
+          //node console stuff is weird -1 is the actual 0th position
           body.pop();
           body.splice(0, 0, nextPos);
         }
@@ -117,7 +118,7 @@ let direction_array = [1, -1];
 class Ball {
   constructor() {
     this.position = [
-      Math.floor(Math.random() * (23 - 5) + 5),
+      Math.floor(Math.random() * (23 - 7) + 7),
       Math.floor(Math.random() * (10 - 5) + 5),
     ]; //for math.random within two values *(max-min)+min
     this.direction = [
@@ -170,17 +171,20 @@ class Ball {
   }
 
   reset() {
+    //reset ball to another random position/direction
     this.position = [
-      Math.floor(Math.random() * (23 - 5) + 5),
+      Math.floor(Math.random() * (23 - 7) + 7),
       Math.floor(Math.random() * (10 - 5) + 5),
     ];
     this.direction = [
       direction_array[Math.floor(Math.random() * direction_array.length)],
       direction_array[Math.floor(Math.random() * direction_array.length)],
     ];
+    fps = 5;
   }
 
   draw() {
+    //draw everything in body
     toDraw = [...toDraw, this.position];
   }
 }
