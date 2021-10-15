@@ -3,9 +3,11 @@
   "version": "0.5.2",
   "description": "WebSocket based terminal Pong game.",
   "main": "index.js",
+  "bin": {
+    "pong": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pong": "node index.js",
     "start": "node index.js"
   },
   "repository": {
